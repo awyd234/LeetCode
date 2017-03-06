@@ -15,10 +15,10 @@ class Solution(object):
         :type y: int
         :rtype: int
         """
-        ans = 0
+        sum = 0
         xor_result = x ^ y
         while xor_result > 0:
-            if xor_result % 2 == 1:
-                ans += 1
+            if xor_result & 1 == 1:
+                sum += 1
             xor_result >>= 1
-        return ans
+        return sum

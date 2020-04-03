@@ -102,7 +102,7 @@ if __name__ == '__main__':
 ## 运行结果
 
 | Time Submitted | Status                                   | Runtime | Memory | Language |
-| -------------- | ---------------------------------------- | ------- | -------- |
+| -------------- | ---------------------------------------- | ------- | -------- | -------- |
 | a few seconds ago |	Accepted	32 ms	| 13.8 MB	| python3|
 
 Runtime: 32 ms, faster than 32.91% of Python3 online submissions for Valid Parentheses.

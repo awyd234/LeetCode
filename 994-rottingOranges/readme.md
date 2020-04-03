@@ -99,7 +99,7 @@ class Solution:
 ## 运行结果
 
 | Time Submitted | Status                                   | Runtime | Memory  | Language |
-| -------------- | ---------------------------------------- | ------- | -------- |
+| -------------- | ---------------------------------------- | ------- | -------- | -------- |
 | a few seconds ago |	Accepted	| 60 ms	| 13.7 MB	| python3|
 
 Runtime: 60 ms, faster than 18.95% of Python3 online submissions for Rotting Oranges.

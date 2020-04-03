@@ -61,7 +61,7 @@ class Solution:
 ## 运行结果
 
 | Time Submitted | Status                                   | Runtime | Memory  | Language |
-| -------------- | ---------------------------------------- | ------- | -------- |
+| -------------- | ---------------------------------------- | ------- | -------- | -------- |
 | a few seconds ago |	Accepted	| 36 ms	| 13.9 MB	| python3|
 
 Runtime: 36 ms, faster than 62.66% of Python3 online submissions for Merge Two Sorted Lists.

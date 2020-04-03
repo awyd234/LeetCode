@@ -44,7 +44,7 @@ Output: true
 Accepted 899,288 Submissions 2,353,413
 
 
-## 问题描
+## 问题描述
 简单的括号匹配问题
 
 
@@ -101,7 +101,7 @@ if __name__ == '__main__':
 
 ## 运行结果
 
-| Time Submitted | Status                                   | Runtime | Language |
+| Time Submitted | Status                                   | Runtime | Memory | Language |
 | -------------- | ---------------------------------------- | ------- | -------- |
 | a few seconds ago |	Accepted	32 ms	| 13.8 MB	| python3|
 

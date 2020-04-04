@@ -35,13 +35,18 @@ Submissions
 
 ```python
 class Solution:
-    def maxProfit(self, prices: List[int]) -> int:
-        output = 0
-        buy = float("inf")
-        for price in prices:
-            buy = min([buy, price])
-            output = max([output, price - buy])
-        return output
+    def reverseList(self, head: ListNode) -> ListNode:
+        if head is None:
+            return head
+        first_node = ListNode(0)
+        first_node.next = head
+        tail = head
+        while tail.next:
+            first_node.next = tail.next
+            tail.next = tail.next.next
+            first_node.next.next = head
+            head = first_node.next
+        return first_node.next
 ```
 
 

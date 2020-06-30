@@ -1,4 +1,4 @@
-#7. Reverse Integer
+# 680. Valid Palindrome II
 
 link: [https://leetcode.com/problems/valid-palindrome-ii/](https://leetcode.com/problems/valid-palindrome-ii/)
 

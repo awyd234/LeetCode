@@ -1,4 +1,4 @@
-#67. Add Binary
+# 67. Add Binary
 
 link: [https://leetcode.com/problems/add-binary/](https://leetcode.com/problems/add-binary/)
 

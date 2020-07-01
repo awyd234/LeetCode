@@ -17,14 +17,14 @@ Design a stack that supports push, pop, top, and retrieving the minimum element 
 
 **Example 1:**
 ```markdown
-**Input**
+Input
 ["MinStack","push","push","push","getMin","pop","top","getMin"]
 [[],[-2],[0],[-3],[],[],[],[]]
 
-**Output**
+Output
 [null,null,null,null,-3,null,0,-2]
 
-**Explanation**
+Explanation
 MinStack minStack = new MinStack();
 minStack.push(-2);
 minStack.push(0);
@@ -47,7 +47,7 @@ Submissions
 自己构造栈，并实现取最小值的方法
 
 ## 题目分析
-就是用list模拟数组，我这个方法
+就是用array模拟数组，我这个方法实际是直接用了python自带的array方法，如果正常实现可以用一个数组，并用top来指代top位置，通过top加减来实现push/pop，唯一一个有意思的地方是用stack来维护一个最小数，这样可以保证getMin()方法是O(1)的
 
 
 ## 代码实现

@@ -38,6 +38,7 @@ logger.shouldPrintMessage(11,"foo"); returns true;
 
 Accepted
 90,411
+
 Submissions
 128,955
 

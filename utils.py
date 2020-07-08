@@ -6,6 +6,13 @@ class TreeNode:
         self.right = right
 
 
+# Definition for singly-linked list.
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+
 def build_bst_method1(data: list):
     if len(data) == 0 or all([_ is None for _ in data]):
         return None
@@ -29,3 +36,16 @@ def build_bst_method1(data: list):
                     p.right = this_node
                     break
     return root_node
+
+
+def build_linked_list(data: list, none_head=True):
+    head = ListNode()
+    p = head
+    for each_data in data:
+        this_node = ListNode(each_data)
+        p.next = this_node
+        p = p.next
+    if none_head:
+        return p.next
+    else:
+        return p

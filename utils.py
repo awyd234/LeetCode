@@ -46,6 +46,18 @@ def build_linked_list(data: list, none_head=True):
         p.next = this_node
         p = p.next
     if none_head:
-        return p.next
+        return head.next
     else:
-        return p
+        return head
+
+
+def check_linked_list_equal(l1: ListNode, l2: ListNode):
+    while l1 and l2:
+        if l1.val != l2.val:
+            return False
+        l1 = l1.next
+        l2 = l2.next
+    if l1 is None and l2 is None:
+        return True
+    else:
+        return False

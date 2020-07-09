@@ -1,4 +1,4 @@
-from utils import TreeNode, build_bst_method1
+from utils import TreeNode
 
 
 class Solution:
@@ -25,5 +25,5 @@ if __name__ == '__main__':
     this_input = list()
     this_input.append([[10, 5, 15, 3, 7, None, 18], 7, 15, 32])
     for each_value in this_input:
-        root_node = build_bst_method1(each_value[0])
+        root_node = TreeNode.build_bst_method1(each_value[0])
         assert solution.rangeSumBST(root_node, each_value[1], each_value[2]) == each_value[3]

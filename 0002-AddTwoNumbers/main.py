@@ -1,4 +1,4 @@
-from utils import ListNode, build_linked_list, check_linked_list_equal
+from utils import ListNode
 
 
 class Solution:
@@ -34,7 +34,7 @@ if __name__ == '__main__':
     this_input.append([[2, 4, 3, 6], [5, 6, 4], [7, 0, 8, 6]])
     this_input.append([[2, 4, 6, 6], [5, 6, 4], [7, 0, 1, 7]])
     for each_value in this_input:
-        l1 = build_linked_list(each_value[0])
-        l2 = build_linked_list(each_value[1])
-        result = build_linked_list(each_value[2])
-        assert check_linked_list_equal(solution.addTwoNumbers(l1, l2), result) is True
+        l1 = ListNode.build_linked_list(each_value[0])
+        l2 = ListNode.build_linked_list(each_value[1])
+        result = ListNode.build_linked_list(each_value[2])
+        assert ListNode.check_linked_list_equal(solution.addTwoNumbers(l1, l2), result) is True

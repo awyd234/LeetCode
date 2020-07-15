@@ -22,7 +22,6 @@ Nary-Tree input serialization is represented in their level order traversal, eac
 
 Follow up: Can your solution work for the graph problem?
 
- 
 
 Example 1:
 ![example1](narytreeexample1.png)
@@ -78,7 +77,7 @@ class Solution:
 
 | Time Submitted | Status                                   | Runtime | Memory  | Language |
 | -------------- | ---------------------------------------- | ------- | -------- | -------- |
-| a few seconds ago |	Accepted	| 		180 ms	| 14.8 MB		| python3|
+| a few seconds ago |	Accepted	| 		64 ms	| 17.5 MB		| python3|
 
 
 Runtime: 64 ms, faster than 99.07% of Python3 online submissions for Clone N-ary Tree.

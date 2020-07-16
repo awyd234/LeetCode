@@ -37,13 +37,17 @@ class TreeNode:
             return None
         for index, each_data in enumerate(data):
             node_list[index] = TreeNode(val=each_data)
-        for index, each_node in enumerate(node_list[: len(node_list) // 2]):
+        for index, each_node in enumerate(node_list):
             if each_node is None:
                 continue
             if index * 2 + 2 <= len(node_list):
                 each_node.left = node_list[index * 2 + 1]
+            else:
+                break
             if index * 2 + 3 <= len(node_list):
                 each_node.right = node_list[index * 2 + 2]
+            else:
+                break
         return node_list[0]
 
 

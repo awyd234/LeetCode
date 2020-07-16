@@ -30,6 +30,22 @@ class TreeNode:
                         break
         return root_node
 
+    @classmethod
+    def build_normal_tree_by_node_list(cls, data: list):
+        node_list = [None] * len(data)
+        if len(data) == 0:
+            return None
+        for index, each_data in enumerate(data):
+            node_list[index] = TreeNode(val=each_data)
+        for index, each_node in enumerate(node_list[: len(node_list) // 2]):
+            if each_node is None:
+                continue
+            if index * 2 + 2 <= len(node_list):
+                each_node.left = node_list[index * 2 + 1]
+            if index * 2 + 3 <= len(node_list):
+                each_node.right = node_list[index * 2 + 2]
+        return node_list[0]
+
 
 # Definition for singly-linked list.
 class ListNode:

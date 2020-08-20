@@ -1,6 +1,6 @@
-# 70. Climbing Stairs
+# 204. CountPrimes
 
-link: [https://leetcode.com/problems/climbing-stairs/](https://leetcode.com/problems/climbing-stairs/)
+link: [https://leetcode.com/problems/count-primes/](https://leetcode.com/problems/count-primes/)
 
 ## Difficulty
 Easy
